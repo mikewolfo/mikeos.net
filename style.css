@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    background-color: #001649;
+    color: aliceblue;
+}
+
+/*Consider adding dark/light mode selection to the page*/
+
+
+.navcontent{
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    white-space: nowrap;
+}
+
+.logo{
+    display:inline-block;
+    vertical-align: middle;
+}
+
+.link{
+    display:inline-block;
+    white-space: nowrap;
+}
+
+.link a{
+    text-decoration:none;
+    color: black;
+    transition:.2s;
+}
+.link a:hover{
+    text-decoration:none;
+    color: red;
+}
+
+.link li{
+    display:inline-block;
+    vertical-align: middle;
+    font-size: 200%;
+    padding-inline: 20px;
+    
+}
+
+.navbackground{
+    background: rgba(255,255,255,0.75);
+    width: 100%;
+    /*height: 2.1cm;*/
+    display:inline-block;
+}
+
+#maincontent{
+    
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top:50px;
+    padding-bottom:50px;
+    font-family: "consolas", sans-serif;
+    transition:.2s;
+}
+
+
+.post{
+    font-family: "consolas", sans-serif;
+}
+
+.content{
+    height:86vh;
+}
+
+.content iframe{
+    height:100%;
+    width:100%;
+    border:0;
+}
+
