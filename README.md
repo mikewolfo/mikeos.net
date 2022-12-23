@@ -1,2 +1,2 @@
 # mikeos.net
- The new design for MikeOS.net
+ The prototype design for mikeos.net
